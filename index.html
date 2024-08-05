@@ -11,25 +11,53 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
         header {
             background-color: #0b3776;
             color: #fff;
             padding: 1rem;
             text-align: center;
         }
+
         nav {
             display: flex;
             justify-content: center;
             background-color: #74cdf4;
         }
+
         nav a {
             color: #fff;
             padding: 1rem;
             text-decoration: none;
         }
+
         nav a:hover {
-            background-color: #555;
+            background-color: #66aee4;
         }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 0.5rem 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: #555;
+            display: block;
+        }
+
         .container {
             max-width: 1200px;
             margin: 2rem auto;
@@ -47,12 +75,12 @@
             width: 100%;
         }
         .register {
-    display: flex;
-    gap: 2rem;
-    position: absolute;
-    top: 23.5%;
-    right: 2rem;
-}
+            display: flex;
+            gap: 2rem;
+            position: absolute;
+            top: 23.5%;
+            right: 2rem;
+        }
 
     </style>
 </head>
@@ -62,12 +90,16 @@
         <h1>HIMALAYA DARSHAN COLLEGE</h1>
     </header>
     <nav>
-        <a href="#home">Home</a>
-        <a href="aboutus.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
-        <div class="register">
-            <a href="register.html" target="_blank">Register</a>
-        </div>
+        <ul>
+            
+            <li><a href="#home">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a> </li>
+            <div class="register">
+                <a href="register.html" target="_blank">Register</a>
+            </div>
+
+        </ul>
     </nav>
 
         <p><img src="1.png"></p>
