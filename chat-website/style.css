@@ -84,7 +84,7 @@ input {
         }
         .form-group {
             margin-bottom: 1rem;
-            color: rgb(152, 243, 243);
+            color: rgb(3, 6, 6);
         }
         .form-group label {
             display: block;
@@ -106,7 +106,7 @@ input {
             display: block;
             width: 100%;
             padding: 0.75rem;
-            background-color: #007BFF;
+            background-color: #01070c;
             color: #fff;
             border: none;
             border-radius: 4px;
